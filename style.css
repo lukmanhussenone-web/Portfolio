@@ -8,10 +8,17 @@ header {
   height: 60px;
   background-color: #1e293b;
   color: white;
+}
+
+.header-container {
+  width: 90%;
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+
   display: flex;
-  justify-content: space-around;
+ justify-content: space-between;
   align-items: center;
-  font-size: 20px;
 }
 ul {
   display: flex;
@@ -28,12 +35,19 @@ ul {
   color: white;
   width: 100%;
   height: 500px;
-  background-color: rgb(65, 65, 65);
+  background-color: #111827;
+}
+.hero-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 50px;
 }
+
 .hero-btn {
   margin-top: 20px;
   padding: 7px;
@@ -44,6 +58,7 @@ ul {
 }
 
 .hero-imy {
+  margin: 40px;
   width: 300px;
   height: 400px;
   object-fit: cover;
@@ -54,38 +69,47 @@ ul {
 /* Section 222222222222222222 */
 
 .Introduction {
-  color: white;
   width: 100%;
-  height: 550px;
-  background-color: rgb(38, 37, 37);
+  min-height: 550px;
+  background-color: #252B36;
+  color: white;
+
+}
+
+.intro-container {
+  width: 90%;
+  max-width: 1200px;
+  min-height: 550px;
+  margin: 0 auto;
+
   display: flex;
-  justify-content: space-around;
   align-items: center;
   gap: 30px;
 }
+
 .intro-left {
   width: 40%;
-  height: 100%;
+  /* height: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
-  .intro-imx {
+}
+ .intro-imx {
     border-radius: 7px;
     width: 300px;
     height: 400px;
     object-fit: cover;
   }
-}
-.intro-righ {
-  width: 60%;
+
+.intro-right {
+  max-width: 60%;
   height: 100%;
-  margin-right: 40px;
 
   hr {
-    width: 80%;
+    width: 100%;
     border: none;
     height: 2px;
-    background-color: black;
+    background-color: whitesmoke;
     margin: 20px auto;
   }
 }
@@ -102,7 +126,7 @@ ul {
   color: white;
   width: 100%;
   height: 450px;
-  background-color: rgb(62, 61, 61);
+  background-color: #303744;
   text-align: center;
 }
 
@@ -121,11 +145,11 @@ ul {
   width: 200px;
   height: 200px;
   font-size: 10px;
-  background-color: rgb(52, 51, 51);
-  border-radius: 3px;
+  background-color: #1e293b;
+  border-radius: 15px 0px 15px 0px;
 }
 .crd-icon {
-  margin: 20px 0px 20px;
+  margin: 40px auto 20px;
   color: green;
   font-size: 30px;
 }
@@ -136,7 +160,7 @@ ul {
   color: white;
   width: 100%;
   height: 550px;
-  background-color: rgb(36, 36, 36);
+  background-color: #202631;
 }
 
 .port-txtx {
@@ -155,7 +179,8 @@ ul {
   text-align: center;
   width: 250px;
   height: 350px;
-  background-color: rgb(44, 75, 43);
+
+  /* background-color:  #111827; */
   border-radius: 5px;
 }
 
@@ -171,6 +196,6 @@ ul {
   width: 100%;
   height: 200px;
   color: rgb(232, 238, 232);
-  background-color: rgb(51, 47, 47);
+  background-color: #1e293b;
   text-align: center;
 }
